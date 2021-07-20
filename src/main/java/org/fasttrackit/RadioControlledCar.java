@@ -1,16 +1,14 @@
 package org.fasttrackit;
 
-public class RadioControlledCar {
+public class RadioControlledCar extends AutoVehicle {
 
     // primivites types
-    String name;
-    String color;
+
     int doorCount;
-    int wheelCount;
-    double mileage;
+
 
     // data type                 100 ---- 150
-    Engine engine;  /// --->>>  [][][][][][][][]
+    /// --->>>  [][][][][][][][]
 
 
     // numere intregi

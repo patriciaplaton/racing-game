@@ -35,6 +35,10 @@ public class App
 
 
 
+        Vehicle vehicle = new Vehicle();
+        vehicle.accelerate(18.1);
+
+
 
 
     }
