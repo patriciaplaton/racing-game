@@ -18,12 +18,7 @@ public class App
 
         dacia.engine = daciaEngine;
 
-        RadioControlledCar lada = new RadioControlledCar();
-
-        lada.name = "Lada";
-        lada.color = "blue";
-        lada.doorCount = 2;
-        lada.wheelCount = 4;
+        RadioControlledCar lada = new RadioControlledCar(daciaEngine, 2, "lada", "blue", 4);
         lada.mileage = 8;
 
         Engine ladaEngine = new Engine();
@@ -34,12 +29,6 @@ public class App
         race.secondCar = lada;
 
 
-
-        Vehicle vehicle = new Vehicle();
-        vehicle.accelerate(18.1);
-
-
-
-
+        dacia.accelerate(18.1);
     }
 }
